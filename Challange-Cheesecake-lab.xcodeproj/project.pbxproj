@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4553B5E01BC7F9E400E3ADBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4553B5DF1BC7F9E400E3ADBE /* main.m */; };
+		4553B5E31BC7F9E400E3ADBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4553B5E21BC7F9E400E3ADBE /* AppDelegate.m */; };
+		4553B5E61BC7F9E400E3ADBE /* Challange_Cheesecake_lab.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4553B5E41BC7F9E400E3ADBE /* Challange_Cheesecake_lab.xcdatamodeld */; };
+		4553B5E91BC7F9E400E3ADBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4553B5E81BC7F9E400E3ADBE /* ViewController.m */; };
+		4553B5EC1BC7F9E400E3ADBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4553B5EA1BC7F9E400E3ADBE /* Main.storyboard */; };
+		4553B5EE1BC7F9E400E3ADBE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4553B5ED1BC7F9E400E3ADBE /* Images.xcassets */; };
+		4553B5F11BC7F9E400E3ADBE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4553B5EF1BC7F9E400E3ADBE /* LaunchScreen.xib */; };
+		4553B5FD1BC7F9E400E3ADBE /* Challange_Cheesecake_labTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4553B5FC1BC7F9E400E3ADBE /* Challange_Cheesecake_labTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4553B5F71BC7F9E400E3ADBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4553B5D21BC7F9E400E3ADBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4553B5D91BC7F9E400E3ADBE;
+			remoteInfo = "Challange-Cheesecake-lab";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4553B5DA1BC7F9E400E3ADBE /* Challange-Cheesecake-lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Challange-Cheesecake-lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4553B5DE1BC7F9E400E3ADBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4553B5DF1BC7F9E400E3ADBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4553B5E11BC7F9E400E3ADBE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4553B5E21BC7F9E400E3ADBE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4553B5E51BC7F9E400E3ADBE /* Challange_Cheesecake_lab.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Challange_Cheesecake_lab.xcdatamodel; sourceTree = "<group>"; };
+		4553B5E71BC7F9E400E3ADBE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4553B5E81BC7F9E400E3ADBE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4553B5EB1BC7F9E400E3ADBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4553B5ED1BC7F9E400E3ADBE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4553B5F01BC7F9E400E3ADBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4553B5F61BC7F9E400E3ADBE /* Challange-Cheesecake-labTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Challange-Cheesecake-labTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4553B5FB1BC7F9E400E3ADBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4553B5FC1BC7F9E400E3ADBE /* Challange_Cheesecake_labTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Challange_Cheesecake_labTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4553B5D71BC7F9E400E3ADBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4553B5F31BC7F9E400E3ADBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4553B5D11BC7F9E400E3ADBE = {
+			isa = PBXGroup;
+			children = (
+				4553B5DC1BC7F9E400E3ADBE /* Challange-Cheesecake-lab */,
+				4553B5F91BC7F9E400E3ADBE /* Challange-Cheesecake-labTests */,
+				4553B5DB1BC7F9E400E3ADBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4553B5DB1BC7F9E400E3ADBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4553B5DA1BC7F9E400E3ADBE /* Challange-Cheesecake-lab.app */,
+				4553B5F61BC7F9E400E3ADBE /* Challange-Cheesecake-labTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4553B5DC1BC7F9E400E3ADBE /* Challange-Cheesecake-lab */ = {
+			isa = PBXGroup;
+			children = (
+				4553B5E11BC7F9E400E3ADBE /* AppDelegate.h */,
+				4553B5E21BC7F9E400E3ADBE /* AppDelegate.m */,
+				4553B5E71BC7F9E400E3ADBE /* ViewController.h */,
+				4553B5E81BC7F9E400E3ADBE /* ViewController.m */,
+				4553B5EA1BC7F9E400E3ADBE /* Main.storyboard */,
+				4553B5ED1BC7F9E400E3ADBE /* Images.xcassets */,
+				4553B5EF1BC7F9E400E3ADBE /* LaunchScreen.xib */,
+				4553B5E41BC7F9E400E3ADBE /* Challange_Cheesecake_lab.xcdatamodeld */,
+				4553B5DD1BC7F9E400E3ADBE /* Supporting Files */,
+			);
+			path = "Challange-Cheesecake-lab";
+			sourceTree = "<group>";
+		};
+		4553B5DD1BC7F9E400E3ADBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4553B5DE1BC7F9E400E3ADBE /* Info.plist */,
+				4553B5DF1BC7F9E400E3ADBE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4553B5F91BC7F9E400E3ADBE /* Challange-Cheesecake-labTests */ = {
+			isa = PBXGroup;
+			children = (
+				4553B5FC1BC7F9E400E3ADBE /* Challange_Cheesecake_labTests.m */,
+				4553B5FA1BC7F9E400E3ADBE /* Supporting Files */,
+			);
+			path = "Challange-Cheesecake-labTests";
+			sourceTree = "<group>";
+		};
+		4553B5FA1BC7F9E400E3ADBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4553B5FB1BC7F9E400E3ADBE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4553B5D91BC7F9E400E3ADBE /* Challange-Cheesecake-lab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4553B6001BC7F9E400E3ADBE /* Build configuration list for PBXNativeTarget "Challange-Cheesecake-lab" */;
+			buildPhases = (
+				4553B5D61BC7F9E400E3ADBE /* Sources */,
+				4553B5D71BC7F9E400E3ADBE /* Frameworks */,
+				4553B5D81BC7F9E400E3ADBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Challange-Cheesecake-lab";
+			productName = "Challange-Cheesecake-lab";
+			productReference = 4553B5DA1BC7F9E400E3ADBE /* Challange-Cheesecake-lab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4553B5F51BC7F9E400E3ADBE /* Challange-Cheesecake-labTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4553B6031BC7F9E400E3ADBE /* Build configuration list for PBXNativeTarget "Challange-Cheesecake-labTests" */;
+			buildPhases = (
+				4553B5F21BC7F9E400E3ADBE /* Sources */,
+				4553B5F31BC7F9E400E3ADBE /* Frameworks */,
+				4553B5F41BC7F9E400E3ADBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4553B5F81BC7F9E400E3ADBE /* PBXTargetDependency */,
+			);
+			name = "Challange-Cheesecake-labTests";
+			productName = "Challange-Cheesecake-labTests";
+			productReference = 4553B5F61BC7F9E400E3ADBE /* Challange-Cheesecake-labTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4553B5D21BC7F9E400E3ADBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Air;
+				TargetAttributes = {
+					4553B5D91BC7F9E400E3ADBE = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					4553B5F51BC7F9E400E3ADBE = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 4553B5D91BC7F9E400E3ADBE;
+					};
+				};
+			};
+			buildConfigurationList = 4553B5D51BC7F9E400E3ADBE /* Build configuration list for PBXProject "Challange-Cheesecake-lab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4553B5D11BC7F9E400E3ADBE;
+			productRefGroup = 4553B5DB1BC7F9E400E3ADBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4553B5D91BC7F9E400E3ADBE /* Challange-Cheesecake-lab */,
+				4553B5F51BC7F9E400E3ADBE /* Challange-Cheesecake-labTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4553B5D81BC7F9E400E3ADBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4553B5EC1BC7F9E400E3ADBE /* Main.storyboard in Resources */,
+				4553B5F11BC7F9E400E3ADBE /* LaunchScreen.xib in Resources */,
+				4553B5EE1BC7F9E400E3ADBE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4553B5F41BC7F9E400E3ADBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4553B5D61BC7F9E400E3ADBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4553B5E31BC7F9E400E3ADBE /* AppDelegate.m in Sources */,
+				4553B5E61BC7F9E400E3ADBE /* Challange_Cheesecake_lab.xcdatamodeld in Sources */,
+				4553B5E91BC7F9E400E3ADBE /* ViewController.m in Sources */,
+				4553B5E01BC7F9E400E3ADBE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4553B5F21BC7F9E400E3ADBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4553B5FD1BC7F9E400E3ADBE /* Challange_Cheesecake_labTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4553B5F81BC7F9E400E3ADBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4553B5D91BC7F9E400E3ADBE /* Challange-Cheesecake-lab */;
+			targetProxy = 4553B5F71BC7F9E400E3ADBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4553B5EA1BC7F9E400E3ADBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4553B5EB1BC7F9E400E3ADBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4553B5EF1BC7F9E400E3ADBE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4553B5F01BC7F9E400E3ADBE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4553B5FE1BC7F9E400E3ADBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4553B5FF1BC7F9E400E3ADBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4553B6011BC7F9E400E3ADBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Challange-Cheesecake-lab/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4553B6021BC7F9E400E3ADBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Challange-Cheesecake-lab/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4553B6041BC7F9E400E3ADBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Challange-Cheesecake-labTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Challange-Cheesecake-lab.app/Challange-Cheesecake-lab";
+			};
+			name = Debug;
+		};
+		4553B6051BC7F9E400E3ADBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Challange-Cheesecake-labTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Challange-Cheesecake-lab.app/Challange-Cheesecake-lab";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4553B5D51BC7F9E400E3ADBE /* Build configuration list for PBXProject "Challange-Cheesecake-lab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4553B5FE1BC7F9E400E3ADBE /* Debug */,
+				4553B5FF1BC7F9E400E3ADBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4553B6001BC7F9E400E3ADBE /* Build configuration list for PBXNativeTarget "Challange-Cheesecake-lab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4553B6011BC7F9E400E3ADBE /* Debug */,
+				4553B6021BC7F9E400E3ADBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4553B6031BC7F9E400E3ADBE /* Build configuration list for PBXNativeTarget "Challange-Cheesecake-labTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4553B6041BC7F9E400E3ADBE /* Debug */,
+				4553B6051BC7F9E400E3ADBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4553B5E41BC7F9E400E3ADBE /* Challange_Cheesecake_lab.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4553B5E51BC7F9E400E3ADBE /* Challange_Cheesecake_lab.xcdatamodel */,
+			);
+			currentVersion = 4553B5E51BC7F9E400E3ADBE /* Challange_Cheesecake_lab.xcdatamodel */;
+			path = Challange_Cheesecake_lab.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4553B5D21BC7F9E400E3ADBE /* Project object */;
+}
