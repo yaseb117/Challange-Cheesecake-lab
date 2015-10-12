@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4517419B1BCA668100735691 /* SortedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4517419A1BCA668100735691 /* SortedList.m */; };
+		451741A01BCAF1D600735691 /* IPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4517419F1BCAF1D600735691 /* IPad.storyboard */; };
+		451741A31BCB32F200735691 /* MasterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 451741A21BCB32F200735691 /* MasterTableViewController.m */; };
+		451741A61BCB3E6000735691 /* MaserDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 451741A51BCB3E6000735691 /* MaserDetailViewController.m */; };
 		4553B5E01BC7F9E400E3ADBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4553B5DF1BC7F9E400E3ADBE /* main.m */; };
 		4553B5E31BC7F9E400E3ADBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4553B5E21BC7F9E400E3ADBE /* AppDelegate.m */; };
 		4553B5E61BC7F9E400E3ADBE /* Challange_Cheesecake_lab.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4553B5E41BC7F9E400E3ADBE /* Challange_Cheesecake_lab.xcdatamodeld */; };
@@ -15,6 +19,10 @@
 		4553B5EE1BC7F9E400E3ADBE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4553B5ED1BC7F9E400E3ADBE /* Images.xcassets */; };
 		4553B5F11BC7F9E400E3ADBE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4553B5EF1BC7F9E400E3ADBE /* LaunchScreen.xib */; };
 		4553B5FD1BC7F9E400E3ADBE /* Challange_Cheesecake_labTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4553B5FC1BC7F9E400E3ADBE /* Challange_Cheesecake_labTests.m */; };
+		4553B6081BC800F700E3ADBE /* DiceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4553B6071BC800F700E3ADBE /* DiceTableViewCell.m */; };
+		4553B60B1BC8010C00E3ADBE /* Dice.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 4553B60A1BC8010C00E3ADBE /* Dice.xcdatamodel */; };
+		4553B60D1BC8011300E3ADBE /* DiceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4553B60C1BC8011300E3ADBE /* DiceTableViewCell.xib */; };
+		4553B6101BC8123600E3ADBE /* DetailViewControll.m in Sources */ = {isa = PBXBuildFile; fileRef = 4553B60F1BC8123600E3ADBE /* DetailViewControll.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +36,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		451741991BCA668100735691 /* SortedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortedList.h; sourceTree = "<group>"; };
+		4517419A1BCA668100735691 /* SortedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortedList.m; sourceTree = "<group>"; };
+		4517419F1BCAF1D600735691 /* IPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = IPad.storyboard; sourceTree = "<group>"; };
+		451741A11BCB32F200735691 /* MasterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterTableViewController.h; sourceTree = "<group>"; };
+		451741A21BCB32F200735691 /* MasterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterTableViewController.m; sourceTree = "<group>"; };
+		451741A41BCB3E6000735691 /* MaserDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaserDetailViewController.h; sourceTree = "<group>"; };
+		451741A51BCB3E6000735691 /* MaserDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaserDetailViewController.m; sourceTree = "<group>"; };
 		4553B5DA1BC7F9E400E3ADBE /* Challange-Cheesecake-lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Challange-Cheesecake-lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4553B5DE1BC7F9E400E3ADBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4553B5DF1BC7F9E400E3ADBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +57,12 @@
 		4553B5F61BC7F9E400E3ADBE /* Challange-Cheesecake-labTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Challange-Cheesecake-labTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4553B5FB1BC7F9E400E3ADBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4553B5FC1BC7F9E400E3ADBE /* Challange_Cheesecake_labTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Challange_Cheesecake_labTests.m; sourceTree = "<group>"; };
+		4553B6071BC800F700E3ADBE /* DiceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiceTableViewCell.m; sourceTree = "<group>"; };
+		4553B6091BC8010300E3ADBE /* DiceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiceTableViewCell.h; sourceTree = "<group>"; };
+		4553B60A1BC8010C00E3ADBE /* Dice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dice.xcdatamodel; sourceTree = "<group>"; };
+		4553B60C1BC8011300E3ADBE /* DiceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiceTableViewCell.xib; sourceTree = "<group>"; };
+		4553B60E1BC8123600E3ADBE /* DetailViewControll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewControll.h; sourceTree = "<group>"; };
+		4553B60F1BC8123600E3ADBE /* DetailViewControll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewControll.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +83,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		451741A71BCB58F800735691 /* Iphone */ = {
+			isa = PBXGroup;
+			children = (
+				4553B5E71BC7F9E400E3ADBE /* ViewController.h */,
+				4553B5E81BC7F9E400E3ADBE /* ViewController.m */,
+				4553B60E1BC8123600E3ADBE /* DetailViewControll.h */,
+				4553B60F1BC8123600E3ADBE /* DetailViewControll.m */,
+				4553B5EA1BC7F9E400E3ADBE /* Main.storyboard */,
+			);
+			name = Iphone;
+			sourceTree = "<group>";
+		};
+		451741A81BCB591700735691 /* Ipad */ = {
+			isa = PBXGroup;
+			children = (
+				4517419F1BCAF1D600735691 /* IPad.storyboard */,
+				451741A11BCB32F200735691 /* MasterTableViewController.h */,
+				451741A21BCB32F200735691 /* MasterTableViewController.m */,
+				451741A41BCB3E6000735691 /* MaserDetailViewController.h */,
+				451741A51BCB3E6000735691 /* MaserDetailViewController.m */,
+			);
+			name = Ipad;
+			sourceTree = "<group>";
+		};
 		4553B5D11BC7F9E400E3ADBE = {
 			isa = PBXGroup;
 			children = (
@@ -83,11 +128,11 @@
 		4553B5DC1BC7F9E400E3ADBE /* Challange-Cheesecake-lab */ = {
 			isa = PBXGroup;
 			children = (
+				451741A81BCB591700735691 /* Ipad */,
+				4553B6061BC800C700E3ADBE /* Support */,
+				451741A71BCB58F800735691 /* Iphone */,
 				4553B5E11BC7F9E400E3ADBE /* AppDelegate.h */,
 				4553B5E21BC7F9E400E3ADBE /* AppDelegate.m */,
-				4553B5E71BC7F9E400E3ADBE /* ViewController.h */,
-				4553B5E81BC7F9E400E3ADBE /* ViewController.m */,
-				4553B5EA1BC7F9E400E3ADBE /* Main.storyboard */,
 				4553B5ED1BC7F9E400E3ADBE /* Images.xcassets */,
 				4553B5EF1BC7F9E400E3ADBE /* LaunchScreen.xib */,
 				4553B5E41BC7F9E400E3ADBE /* Challange_Cheesecake_lab.xcdatamodeld */,
@@ -120,6 +165,19 @@
 				4553B5FB1BC7F9E400E3ADBE /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4553B6061BC800C700E3ADBE /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				451741991BCA668100735691 /* SortedList.h */,
+				4517419A1BCA668100735691 /* SortedList.m */,
+				4553B60C1BC8011300E3ADBE /* DiceTableViewCell.xib */,
+				4553B60A1BC8010C00E3ADBE /* Dice.xcdatamodel */,
+				4553B6091BC8010300E3ADBE /* DiceTableViewCell.h */,
+				4553B6071BC800F700E3ADBE /* DiceTableViewCell.m */,
+			);
+			name = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,8 +260,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				451741A01BCAF1D600735691 /* IPad.storyboard in Resources */,
 				4553B5EC1BC7F9E400E3ADBE /* Main.storyboard in Resources */,
 				4553B5F11BC7F9E400E3ADBE /* LaunchScreen.xib in Resources */,
+				4553B60D1BC8011300E3ADBE /* DiceTableViewCell.xib in Resources */,
 				4553B5EE1BC7F9E400E3ADBE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,10 +282,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4553B6081BC800F700E3ADBE /* DiceTableViewCell.m in Sources */,
 				4553B5E31BC7F9E400E3ADBE /* AppDelegate.m in Sources */,
 				4553B5E61BC7F9E400E3ADBE /* Challange_Cheesecake_lab.xcdatamodeld in Sources */,
+				451741A61BCB3E6000735691 /* MaserDetailViewController.m in Sources */,
+				4553B6101BC8123600E3ADBE /* DetailViewControll.m in Sources */,
+				451741A31BCB32F200735691 /* MasterTableViewController.m in Sources */,
+				4517419B1BCA668100735691 /* SortedList.m in Sources */,
 				4553B5E91BC7F9E400E3ADBE /* ViewController.m in Sources */,
 				4553B5E01BC7F9E400E3ADBE /* main.m in Sources */,
+				4553B60B1BC8010C00E3ADBE /* Dice.xcdatamodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +488,7 @@
 				4553B6021BC7F9E400E3ADBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4553B6031BC7F9E400E3ADBE /* Build configuration list for PBXNativeTarget "Challange-Cheesecake-labTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +497,7 @@
 				4553B6051BC7F9E400E3ADBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
